@@ -3,7 +3,7 @@
 		<%= form_tag ('javascript:void(0);'), class: "movieSearch" %>
 			<p>
 				<%= label_tag "title" %>
-				<%= text_field_tag "title", nil, autofocus: true %>
+				<%= text_field_tag "title", nil, autofocus: true, class: "title" %>
 			</p>
 			<p>
 				<%= submit_tag "Search" , class: "btn btn-info" %>
